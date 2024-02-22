@@ -1,5 +1,8 @@
 # feTS Demo Project
 
+## Live Demo
+You can find a live demo here: https://fets-giphy-app.vercel.app/
+
 ## Overview
 
 This Next.js project serves as a demonstration of the [feTS](https://www.npmjs.com/package/fets) library, a TypeScript-based Fetch API for building and consuming REST APIs. The project utilizes various features of the feTS library to interact with a sample REST API, showcasing the simplicity and type safety it brings to client-server communication.
