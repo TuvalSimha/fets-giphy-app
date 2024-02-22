@@ -33,7 +33,7 @@ export function RandomGif() {
       <Button className="mb-[50px]" onClick={() => query.refetch()}>
         Get Random Gif
       </Button>
-      <Image src={url} alt="Random Gif" width={200} height={200} />
+      <Image src={url} alt="Random Gif" width={500} height={500} />
     </div>
   );
 }
