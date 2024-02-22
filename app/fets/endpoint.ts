@@ -1,4 +1,4 @@
-import { client } from "./giphy-client";
+import { client } from "../fets/giphy-client";
 
 export async function getRandomGif() {
   const response = await client["/gifs/random"].get({

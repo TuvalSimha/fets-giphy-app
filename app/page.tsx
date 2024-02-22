@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
-import { RandomGif } from "@/components/random-gif";
+import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { RandomGif } from "../components/random-gif";
 
 const queryClient = new QueryClient();
 

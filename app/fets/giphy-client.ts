@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { ClientPlugin, createClient, type NormalizeOAS } from "fets";
-import type openapi from "./openapi";
+import type openapi from "../fets/openapi";
 
 function useErrorHandler(): ClientPlugin {
   return {
