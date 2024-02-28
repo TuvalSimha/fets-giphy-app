@@ -25,7 +25,8 @@ export function RandomGif() {
     <section className="container flex flex-col justify-between h-screen">
       <header className="h-40 bg-gray-300 rounded-b-2xl flex flex-row justify-center">
         <Button
-          className="mb-[50px] w-[200px] mt-[50px]"
+          disabled={isLoading}
+          className="mb-[50px] w-[200px] mt-[50px] active:bg-gray-400"
           onClick={() => refetch()}
         >
           {error ? "Try Again" : "Random GIF"}
