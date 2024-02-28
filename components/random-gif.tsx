@@ -23,7 +23,7 @@ export function RandomGif() {
 
   return (
     <section className="container flex flex-col justify-between h-screen">
-      <header className="h-40 bg-gray-300 rounded-b-2xl flex flex-row justify-center">
+      <header className="h-1/3 bg-gray-300 rounded-b-2xl flex flex-col items-center justify-center">
         <Button
           className="mb-[50px] w-[200px] mt-[50px]"
           onClick={() => refetch()}
@@ -38,7 +38,7 @@ export function RandomGif() {
           <Image src={url} alt="Random Gif" width={200} height={200} />
         )}
       </div>
-      <footer className="bg-gray-300 h-40 bottom-0 rounded-t-2xl flex flex-col items-center justify-center">
+      <footer className="h-1/3 bg-gray-300 rounded-b-2xl flex flex-col items-center justify-center">
         <p className="font-semibold">feTS Demo App</p>
         <a href="https://the-guild.dev/openapi/fets" target="_blank">
           <FETS />
